@@ -1,0 +1,21 @@
+Progra trabajo : 
+
+Si no has copiado y quieres empezar : 
+git init
+git clone ( URL) ;
+git fetch 
+git pull ---> copias lo de los demas.
+git push ---> subo lo modificado.
+
+SUBIR COSAS :
+
+git add /Proyecto..
+git commit -m "Comentario"
+git push
+Inicializar Constructores:
+git add Proyecto_programacion/
+
+WORD PDF : 
+ cntrl * --> zoom ECLIPSE
+ cntrl - ---> menos zoom
+

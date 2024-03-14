@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tienda de One piece</title>
+  <link rel="stylesheet" href="STILO.CSS">
+</head>
+<body>
+
+  <header>
+    <div>
+      <img src="Imagenes/One_piece_logo.png" alt="Logo de One Piece" class="logo">
+      <h1>Tienda de One piece</h1>
+    </div>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="#productos">Productos</a></li>
+      <li><a href="#manga">Manga</a></li>
+      <li><a href="#contacto">Contacto</a></li>  
+    </ul>
+  </nav>
+
+  <section class="Productos" id="productos">
+    <h2>Productos</h2>
+
+    <div class="Figuras">
+      <div class="One_piece_TCG">
+        <h2>One Piece TCG</h2>
+        <div class="Mazos">
+          <h3>Mazos</h3>
+          <ul>
+            <li><a href="#">Mazos preconstruidos</a></li>
+            <li><a href="#">Cartas individuales</a></li>
+          </ul>
+        </div>
+
+        <div class="Boosterbox">
+          <h3>Booster Box</h3>
+          <ul>
+            <li><a href="#">0p01</a></li>
+            <li><a href="#">Op02</a></li>
+            <li><a href="#">Op03</a></li>
+         </ul>
+        </div>
+      </div>
+
+      <div class="Ropa">
+        <h2>Ropa</h2>
+        <ul>
+          <li><a href="#">Camisetas</a></li>
+          <li><a href="#">Sudaderas</a></li>
+          <li><a href="#">Gorras</a></li>
+        </ul>
+      </div>
+
+      <div class="Artículos">
+        <h2>Otros artículos</h2>
+        <ul>
+          <li><a href="#">Peluches</a></li>
+          <li><a href="#">Coleccionables</a></li>
+          <li><a href="#">Decoración</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="Productos" id="manga">
+    <h2>Manga</h2>
+
+    <ul>
+      <li><a href="#">Tomos individuales</a></li>
+    </ul>
+  </section>
+
+  <section class="Contacto" id="contacto">
+    <h2>Contacto</h2>
+
+    <p>Para cualquier consulta o duda, no dudes en contactarnos:</p>
+
+    <ul>
+      <li>Teléfono: +34 91 123 45 67</li>
+      <li>Correo electrónico: <a href="mailto:info@tiendaonepiece.com">info@tiendaonepiece.com</a></li>
+      <li>Dirección: Calle Mayor, 123 - 28001 Madrid</li>
+    </ul>
+
+    <form action="/submit_form" method="post">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required>
+
+      <label for="email">Correo electrónico:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="mensaje">Mensaje:</label>
+      <textarea id="mensaje" name="mensaje" rows="4" cols="50" required></textarea>
+
+      <input type="submit" value="Enviar">
+    </form>
+  </section>
+
+</body>
+</html>
