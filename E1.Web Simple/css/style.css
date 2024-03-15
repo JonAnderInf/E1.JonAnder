@@ -488,3 +488,60 @@ footer {
 .Contacto input[type="submit"]:hover {
   background-color: #555;
 }
+
+.contacto-container {
+  border: 1px solid #ccc; /* Borde de 1 píxel sólido con color gris */
+  border-radius: 5px; /* Bordes redondeados */
+  padding: 20px; /* Espaciado interno */
+  max-width: 600px; /* Ancho máximo */
+  margin: 20px auto; /* Centrado horizontal */
+}
+
+.contacto-container h3 {
+  font-size: 24px;
+  margin-bottom: 10px; /* Espacio inferior */
+}
+
+.contacto-container p {
+  margin-bottom: 10px; /* Espacio inferior */
+}
+
+.contacto-container ul {
+  margin-bottom: 10px; /* Espacio inferior */
+  list-style: none; /* Quita viñetas */
+  padding-left: 0; /* Elimina el relleno izquierdo */
+}
+
+.contacto-container li {
+  margin-bottom: 5px; /* Espacio inferior entre elementos de lista */
+}
+
+.contacto-container label {
+  display: block; /* Convierte las etiquetas en bloques para que ocupen toda la línea */
+  margin-bottom: 5px; /* Espacio inferior */
+}
+
+.contacto-container input[type="text"],
+.contacto-container input[type="email"],
+.contacto-container textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px; /* Espacio inferior */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.contacto-container input[type="submit"] {
+  width: auto; /* Ancho automático */
+  padding: 10px 20px; /* Espaciado interno */
+  background-color: #1e90ff; /* Color de fondo */
+  color: #fff; /* Color de texto */
+  border: none; /* Sin borde */
+  border-radius: 4px; /* Bordes redondeados */
+  cursor: pointer; /* Cambio de cursor al pasar el ratón */
+  transition: background-color 0.3s ease; /* Transición suave del color de fondo */
+}
+
+.contacto-container input[type="submit"]:hover {
+  background-color: #0d69ff; /* Cambio de color al pasar el ratón */
+}
