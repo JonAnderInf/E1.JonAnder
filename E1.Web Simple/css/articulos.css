@@ -91,3 +91,92 @@ button:hover {
     padding: 15px 10px;
     cursor: pointer;
 }
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+   width: 100%;
+    
+  }
+  
+  .contenedor-footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Secciones del footer */
+  
+  .informacion,
+  .contacto,
+  .redes-sociales {
+    width: 30%; /* Ajusta el ancho de las secciones según tu gusto */
+    text-align: center;
+  }
+  
+  /* Títulos de las secciones */
+  
+  .informacion h2,
+  .contacto h2,
+  .redes-sociales h2 {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  
+  /* Enlaces de las secciones */
+  
+  .informacion a,
+  .contacto a,
+  .redes-sociales a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  .informacion a:hover,
+  .contacto a:hover,
+  .redes-sociales a:hover {
+    color: #ccc;
+  }
+  
+  /* Sección de información */
+  
+  .informacion p {
+    line-height: 1.6;
+  }
+  
+  /* Sección de contacto */
+  
+  .contacto ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .contacto li {
+    margin-bottom: 10px;
+  }
+  
+  /* Sección de redes sociales */
+  
+  .redes-sociales ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .redes-sociales i {
+    margin-right: 10px;
+  }
+  
+  /* Derechos de autor */
+  
+  .derechos {
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  .derechos p {
+    font-size: 12px;
+  }
