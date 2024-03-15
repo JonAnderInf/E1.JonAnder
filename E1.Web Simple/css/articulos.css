@@ -35,7 +35,6 @@ img {
     gap: 20px;
 }
 
-
 .item {
     width: calc(33.33% - 20px); /* Calcula el ancho del artículo con espacio entre ellos */
     background-color: #f9f9f9; /* Color de fondo de la caja del artículo */
@@ -46,7 +45,10 @@ img {
     box-shadow: 0 10px 20px rgba(0,0,0,0.20);
 }
 
-.informacion-producto
+.item:hover img{
+
+    transform: scale(1.2);
+}
 
 .item figure {
     margin-bottom: 15px; /* Espacio inferior entre la imagen y el contenido */
