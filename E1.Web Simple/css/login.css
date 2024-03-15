@@ -1,0 +1,168 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+/* Navegación */
+nav ul {
+
+    background-color: #9b9e9c;
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
+    justify-content: center;
+  
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    
+  }
+  
+  nav li {
+    margin-right: 30px;
+  }
+  
+  nav a {
+    color: #fff;
+  }
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Centra verticalmente los elementos */
+    padding: 20px 0; /* Ajusta el relleno superior e inferior */
+    background-color: crimson; /* Agrega el fondo rojo */
+}
+/* Estilos para el buscador */
+.buscador {
+    margin-top: 20px; /* Agrega margen superior al buscador */
+    background-color: #f2f2f2; /* Color de fondo gris claro */
+    border-radius: 20px; /* Bordes redondeados */
+    padding: 10px; /* Espaciado interno */
+}
+
+/* Estilos para el campo de búsqueda */
+.buscador input[type="text"] {
+    border: none; /* Quita el borde */
+    outline: none; /* Quita el contorno al hacer clic */
+    width: 80%; /* Ancho del campo de búsqueda */
+    padding: 10px; /* Espaciado interno */
+    font-size: 16px; /* Tamaño de fuente */
+}
+
+/* Estilos para el botón de búsqueda */
+.buscador input[type="submit"] {
+    border: none; /* Quita el borde */
+    background-color: crimson; /* Color de fondo */
+    color: white; /* Color de texto */
+    padding: 10px 20px; /* Espaciado interno */
+    border-radius: 20px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    transition: background-color 0.3s ease; /* Transición suave del color de fondo */
+}
+
+/* Cambia el color de fondo al pasar sobre el botón */
+.buscador input[type="submit"]:hover {
+    background-color: #aa0000;
+}
+
+.logo img {
+    width: 100px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.container-icon img {
+    width: 40px;
+}
+
+main {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.login-container {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.login-container h2 {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: crimson;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #aa0000;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.contenedor-footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.informacion,
+.contacto,
+.redes-sociales {
+    width: 30%;
+    text-align: center;
+}
+
+.redes-sociales a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.derechos {
+    margin-top: 20px;
+}

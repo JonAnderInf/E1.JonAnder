@@ -27,13 +27,25 @@ a:hover {
 }
 
 /* Encabezado */
+/* Reset de estilos para mejorar la consistencia */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 header {
-  text-align: center; 
-   background-color: crimson;
-   color: white;
-   padding: 30px;
-   display :flex;
-   justify-content: space-between;
+  background-color: #1e90ff; /* Color de fondo azul */
+  color: white;
+  padding: 20px 0;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center; /* Centra los elementos del header horizontalmente */
+  align-items: center; /* Centra los elementos del header verticalmente */
 }
 
 .logo {
@@ -41,30 +53,87 @@ header {
   height: auto;
 }
 
-/* Navegación */
-nav ul {
+.logo-left,
+.logo-right {
+  margin: 0 20px; /* Espaciado entre los logos y el título */
+}
 
-  background-color: #9b9e9c;
-  width: 100%;
-  list-style-type: none;
-  text-align: center;
-  justify-content: center;
+.title {
+  font-family: 'Arial', sans-serif; /* Cambio de fuente a Arial */
+  font-size: 28px; /* Tamaño de fuente aumentado */
+  text-transform: uppercase; /* Transforma el texto a mayúsculas */
+  letter-spacing: 2px; /* Aumenta el espaciado entre letras */
+  margin: 10px 0; /* Espaciado entre el título y los logos */
+  text-align: center; /* Centra el título */
+}
 
+nav {
+  background-color: #1e90ff; /* Color de fondo azul */
+  margin-top: 20px; /* Espaciado entre el header y la lista de navegación */
 }
 
 nav ul {
   list-style: none;
-  display: flex;
-  
+  padding: 10px 20px; /* Añade un espacio alrededor de la lista de navegación */
+  margin: 0;
+  display: table; /* Hace que la lista se comporte como una tabla */
 }
 
-nav li {
-  margin-right: 30px;
+nav ul li {
+  display: inline;
+  margin-right: 20px; /* Espaciado entre los elementos de la lista */
 }
 
-nav a {
-  color: #fff;
+nav ul li:last-child {
+  margin-right: 0; /* Quita el margen derecho del último elemento de la lista */
 }
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-family: 'Arial', sans-serif; /* Cambio de fuente a Arial */
+  font-size: 16px;
+  transition: color 0.3s ease; /* Transición suave para el cambio de color */
+}
+
+nav ul li a:hover {
+  color: #ffd700; /* Color amarillo al pasar el mouse */
+}
+
+
+/* Estilos para el buscador */
+.buscador {
+    margin-top: 20px; /* Agrega margen superior al buscador */
+    background-color: #f2f2f2; /* Color de fondo gris claro */
+    border-radius: 20px; /* Bordes redondeados */
+    padding: 10px; /* Espaciado interno */
+}
+
+/* Estilos para el campo de búsqueda */
+.buscador input[type="text"] {
+    border: none; /* Quita el borde */
+    outline: none; /* Quita el contorno al hacer clic */
+    width: 80%; /* Ancho del campo de búsqueda */
+    padding: 10px; /* Espaciado interno */
+    font-size: 16px; /* Tamaño de fuente */
+}
+
+/* Estilos para el botón de búsqueda */
+.buscador input[type="submit"] {
+    border: none; /* Quita el borde */
+    background-color: crimson; /* Color de fondo */
+    color: white; /* Color de texto */
+    padding: 10px 20px; /* Espaciado interno */
+    border-radius: 20px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    transition: background-color 0.3s ease; /* Transición suave del color de fondo */
+}
+
+/* Cambia el color de fondo al pasar sobre el botón */
+.buscador input[type="submit"]:hover {
+    background-color: #aa0000;
+}
+
 
 #icono-cesta {
 width: 40px;
@@ -83,45 +152,56 @@ max-width: 100%;
 
 }
 /* Productos */
-.Productos {
-  margin: 30px 0;
+.table-container {
+  margin: 0 auto;
+  width: 100%; /* Ajustamos el ancho de la tabla al 100% */
+  overflow: hidden; /* Evita que el contenido se desborde */
 }
 
-
-.Productos h2 {
-  text-align: center;
-  margin-bottom: 30px;
-}
-
-.Productos .Figuras {
+.principal {
   display: flex;
   justify-content: space-between;
 }
 
-.Productos .Figuras div {
-  flex-basis: calc(33.33% - 20px);
-  background-color: #fff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+.columna1,
+.columna2,
+.columna3 {
+  flex: 1; /* Hacemos que todas las columnas tengan el mismo ancho */
+  background-color: #f9f9f9;
   padding: 20px;
-  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.Productos .Figuras div h2 {
+.titulo_columna {
+  text-align: center;
   margin-bottom: 20px;
+  text-transform: uppercase; /* Convertimos el texto a mayúsculas */
+  font-family: Arial, sans-serif; /* Cambiamos el tipo de letra */
+  color: #333; /* Cambiamos el color del texto */
 }
 
-.Productos .Figuras div ul {
+ul {
   list-style: none;
   padding: 0;
 }
 
-.Productos .Figuras div ul li {
+ul li {
   margin-bottom: 10px;
 }
 
-.Productos .Figuras div ul li a {
+ul li a {
   color: #333;
+  text-decoration: none;
 }
+
+ul li span {
+  display: block;
+}
+
+ul li:last-child {
+  margin-bottom: 0;
+}
+
 
 /* Contacto */
 .Contacto {
