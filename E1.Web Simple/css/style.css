@@ -118,6 +118,11 @@ nav a {
   text-align: center;
 }
 
+#productosgeneral {
+  position: absolute; /* Posicionamiento absoluto */
+  width: auto; /* Ancho completo de la página */
+  height: auto; /* Altura automática para mantener la proporción */
+}
 
 
 /* Estilos generales del footer */
@@ -241,17 +246,37 @@ footer {
 .columna1 {
   width: 18%; /* Ajusta el ancho de la columna */
   background-color: #d6d6d6;
-  color: #0066b3;
   position: sticky; /* Posicionamiento para evitar el solape con el footer */
   float: left; /* Fija la columna a la izquierda */
 }
+
 
 /* Columna de contenido */
 
 .columna2 {
   flex: 1; /* Ocupa el resto del espacio disponible */
   padding: 20px; /* Añade margen interior */
+  margin-left: 20px;
 }
+
+/* Estilos para el título de la columna y bordes de la tabla */
+.titulo_columna1 {
+  color: red;
+  border: 2px solid red;
+  padding: 5px 10px;
+}
+
+/* Estilos para centrar el texto en el contenido central */
+.Texto-centro-Indice {
+  text-align: center;
+}
+
+/* Estilos para centrar el mapa debajo del contenido */
+#mapa {
+  margin: 20px auto; /* Centrado horizontal */
+  display: block; /* Para centrar */
+}
+
 
 /* Imagen de portada */
 
