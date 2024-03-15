@@ -347,7 +347,7 @@ footer {
 
 .columna1 {
   width: 18%; /* Ajusta el ancho de la columna */
-  background-color: #e293ca;
+  background-color: #ffffff;
   position: sticky; /* Posicionamiento para evitar el solape con el footer */
   float: left; /* Fija la columna a la izquierda */
 }
