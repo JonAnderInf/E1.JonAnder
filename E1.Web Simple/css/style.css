@@ -5,6 +5,7 @@ body {
   color: #333;
   background-color: #f4f4f4;
   padding: 0 20px;
+  margin: 0 auto;
 }
 
 h1, h2 {
@@ -30,7 +31,9 @@ header {
   text-align: center; 
    background-color: crimson;
    color: white;
-   padding: 20px;
+   padding: 30px;
+   display :flex;
+   justify-content: space-between;
 }
 
 .logo {
@@ -63,10 +66,20 @@ nav a {
   color: #fff;
 }
 
+#icono-cesta {
+width: 40px;
+height: 40px;
+
+}
+img {
+max-width: 100%;
+
+}
 /* Productos */
 .Productos {
   margin: 30px 0;
 }
+
 
 .Productos h2 {
   text-align: center;
