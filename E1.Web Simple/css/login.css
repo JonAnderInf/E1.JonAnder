@@ -28,13 +28,20 @@ nav ul {
     color: #fff;
   }
 
-header {
+  header {
     display: flex;
-    justify-content: space-between;
+    justify-content: center; /* Centra horizontalmente los elementos */
     align-items: center; /* Centra verticalmente los elementos */
     padding: 20px 0; /* Ajusta el relleno superior e inferior */
     background-color: crimson; /* Agrega el fondo rojo */
-}
+  }
+  
+  .logo {
+    width: 200px;
+    height: auto;
+    
+  }
+  
 /* Estilos para el buscador */
 .buscador {
     margin-top: 20px; /* Agrega margen superior al buscador */
@@ -66,10 +73,6 @@ header {
 /* Cambia el color de fondo al pasar sobre el botón */
 .buscador input[type="submit"]:hover {
     background-color: #aa0000;
-}
-
-.logo img {
-    width: 100px;
 }
 
 nav ul {
