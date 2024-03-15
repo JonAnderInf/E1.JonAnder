@@ -75,6 +75,13 @@ img {
 max-width: 100%;
 
 }
+
+.container-item {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+
+}
 /* Productos */
 .Productos {
   margin: 30px 0;

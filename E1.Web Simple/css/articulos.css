@@ -1,0 +1,42 @@
+*::after,
+*::before,
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+
+    margin: 0 auto;
+    max-width: 1200px;
+    font-family:'Lato';
+    color: #333;
+}
+
+#icono-cesta{
+width: 40px;
+height: 40px;
+
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0 40px;
+}
+
+
+img {
+max-width: 100%;
+
+}
+
+.item {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+
+}
