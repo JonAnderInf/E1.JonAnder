@@ -1,4 +1,4 @@
-/* Estilos generales */
+
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
@@ -27,7 +27,6 @@ a:hover {
 }
 
 /* Encabezado */
-/* Reset de estilos para mejorar la consistencia */
 * {
   margin: 0;
   padding: 0;
@@ -100,8 +99,6 @@ nav ul li a:hover {
   color: #ffd700; /* Color amarillo al pasar el mouse */
 }
 
-
-/* Estilos para el buscador */
 .buscador {
     margin-top: 20px; /* Agrega margen superior al buscador */
     background-color: #f2f2f2; /* Color de fondo gris claro */
@@ -109,7 +106,6 @@ nav ul li a:hover {
     padding: 10px; /* Espaciado interno */
 }
 
-/* Estilos para el campo de búsqueda */
 .buscador input[type="text"] {
     border: none; /* Quita el borde */
     outline: none; /* Quita el contorno al hacer clic */
@@ -118,7 +114,6 @@ nav ul li a:hover {
     font-size: 16px; /* Tamaño de fuente */
 }
 
-/* Estilos para el botón de búsqueda */
 .buscador input[type="submit"] {
     border: none; /* Quita el borde */
     background-color: crimson; /* Color de fondo */
@@ -202,8 +197,6 @@ ul li:last-child {
   margin-bottom: 0;
 }
 
-
-/* Contacto */
 .Contacto {
   background-color: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -226,8 +219,6 @@ ul li:last-child {
   height: auto; /* Altura automática para mantener la proporción */
 }
 
-
-/* Estilos generales del footer */
 
 footer {
   background-color: #333;
@@ -330,7 +321,7 @@ footer {
   background-position: center; /* Posiciona la imagen en el centro */
 }
 
-/* Responsive design  */
+/* Responsive para moviles */
 
 @media (max-width: 768px) {
   .imagen-portada {
@@ -359,19 +350,17 @@ footer {
   margin-left: 20px;
 }
 
-/* Estilos para el título de la columna y bordes de la tabla */
 .titulo_columna1 {
   color: red;
   border: 2px solid red;
   padding: 5px 10px;
 }
 
-/* Estilos para centrar el texto en el contenido central */
+/* Centrar el texto en el contenido central */
 .Texto-centro-Indice {
   text-align: center;
 }
 
-/* Estilos para la imagen productosgeneral */
 #productosgeneral {
   margin: 50px auto 100px; /* Centrado horizontal y margen inferior */
   display: block; /* Para centrar */
@@ -379,7 +368,7 @@ footer {
   z-index: 1; /* Coloca la imagen encima del mapa */
 }
 
-/* Estilos para el mapa */
+
 #mapa {
   margin-top: 50px; /* Ajusta este valor según sea necesario */
   position: relative; /* Añade posición relativa */
@@ -387,7 +376,7 @@ footer {
 }
 
 
-/* Imagen de portada */
+
 
 #imagen-portada {
   display: block; /* Muestra la imagen como un elemento de bloque */
@@ -398,7 +387,7 @@ footer {
   background-position: center; /* Posiciona la imagen en el centro */
 }
 
-/* Responsive design  */
+/* Responsive para moviles */
 
 @media (max-width: 768px) {
   #contenedor {
@@ -414,8 +403,6 @@ footer {
     padding: 0; /* Elimina el margen interior en pantallas pequeñas */
   }
 }
-
-/* Estilos adicionales (opcional) */
 
 .productos {
   list-style: none; /* Quita los estilos de la lista */
