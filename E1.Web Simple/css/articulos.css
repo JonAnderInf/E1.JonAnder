@@ -21,8 +21,47 @@ body {
 header {
     display: flex;
     justify-content: space-between;
-    padding: 30px 0 40px;
+    align-items: center; /* Centra verticalmente los elementos */
+    padding: 20px 0; /* Ajusta el relleno superior e inferior */
+    background-color: crimson; /* Agrega el fondo rojo */
 }
+/* Estilos para el buscador */
+.buscador {
+    margin-top: 20px; /* Agrega margen superior al buscador */
+    background-color: #f2f2f2; /* Color de fondo gris claro */
+    border-radius: 20px; /* Bordes redondeados */
+    padding: 10px; /* Espaciado interno */
+}
+
+/* Estilos para el campo de búsqueda */
+.buscador input[type="text"] {
+    border: none; /* Quita el borde */
+    outline: none; /* Quita el contorno al hacer clic */
+    width: 80%; /* Ancho del campo de búsqueda */
+    padding: 10px; /* Espaciado interno */
+    font-size: 16px; /* Tamaño de fuente */
+}
+
+/* Estilos para el botón de búsqueda */
+.buscador input[type="submit"] {
+    border: none; /* Quita el borde */
+    background-color: crimson; /* Color de fondo */
+    color: white; /* Color de texto */
+    padding: 10px 20px; /* Espaciado interno */
+    border-radius: 20px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    transition: background-color 0.3s ease; /* Transición suave del color de fondo */
+}
+
+/* Cambia el color de fondo al pasar sobre el botón */
+.buscador input[type="submit"]:hover {
+    background-color: #aa0000;
+}
+
+.container-icon {
+    margin-left: auto; /* Alinea el icono en la derecha */
+}
+
 
 img {
     max-width: 100%;
@@ -55,18 +94,23 @@ img {
 }
 
 
-.informacion-producto h2 {
-    font-size: 18px; /* Tamaño de fuente del título */
-    margin-bottom: 10px; /* Espacio inferior del título */
-    line-height: 2;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+/* Estilos para la información del producto */
+.informacion-producto {
+    text-align: center; /* Centra el contenido */
 }
 
+/* Estilos para el nombre del producto */
+.informacion-producto h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+/* Estilos para el precio del producto */
 .price {
-    font-weight: bold; /* Peso de la fuente para el precio */
-    color: rgb(179, 12, 245); /* Color rojo para el precio */
+    font-weight: bold;
+    color: #008000; /* Color verde para el precio */
+    font-size: 16px;
 }
 
 button {
