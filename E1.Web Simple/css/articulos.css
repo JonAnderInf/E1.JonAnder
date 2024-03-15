@@ -1,42 +1,77 @@
 *::after,
 *::before,
-*{
-
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
 }
 
-body{
-
+body {
     margin: 0 auto;
     max-width: 1200px;
-    font-family:'Lato';
+    font-family: 'Lato', sans-serif;
     color: #333;
 }
 
-#icono-cesta{
-width: 40px;
-height: 40px;
-
+#icono-cesta {
+    width: 40px;
+    height: 40px;
 }
 
-header{
+header {
     display: flex;
     justify-content: space-between;
     padding: 30px 0 40px;
 }
 
-
 img {
-max-width: 100%;
-
+    max-width: 100%;
 }
 
-.item {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
+.container-item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
 
+
+.item {
+    width: calc(33.33% - 20px); /* Calcula el ancho del artículo con espacio entre ellos */
+    background-color: #f9f9f9; /* Color de fondo de la caja del artículo */
+    padding: 20px; /* Espacio interno de la caja del artículo */
+    border-radius: 10px; /* Borde redondeado */
+}
+.item:hover{
+    box-shadow: 0 10px 20px rgba(0,0,0,0.20);
+}
+
+.informacion-producto
+
+.item figure {
+    margin-bottom: 15px; /* Espacio inferior entre la imagen y el contenido */
+}
+
+.informacion-producto h2 {
+    font-size: 18px; /* Tamaño de fuente del título */
+    margin-bottom: 10px; /* Espacio inferior del título */
+}
+
+.price {
+    font-weight: bold; /* Peso de la fuente para el precio */
+    color: #f00; /* Color rojo para el precio */
+}
+
+button {
+    background-color: #007bff; /* Color de fondo del botón */
+    color: #fff; /* Color del texto del botón */
+    padding: 10px 20px; /* Espacio interno del botón */
+    border: none; /* Quita el borde del botón */
+    border-radius: 4px; /* Borde redondeado del botón */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    transition: background-color 0.3s ease; /* Transición suave del color de fondo */
+}
+
+button:hover {
+    background-color: #0056b3; /* Cambia el color de fondo al pasar sobre el botón */
 }
