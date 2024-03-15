@@ -45,12 +45,14 @@ nav ul {
   width: 100%;
   list-style-type: none;
   text-align: center;
+  justify-content: center;
 
 }
 
 nav ul {
   list-style: none;
   display: flex;
+  
 }
 
 nav li {
@@ -250,9 +252,7 @@ footer {
   float: left; /* Fija la columna a la izquierda */
 }
 
-
 /* Columna de contenido */
-
 .columna2 {
   flex: 1; /* Ocupa el resto del espacio disponible */
   padding: 20px; /* Añade margen interior */
@@ -271,10 +271,19 @@ footer {
   text-align: center;
 }
 
-/* Estilos para centrar el mapa debajo del contenido */
-#mapa {
-  margin: 20px auto; /* Centrado horizontal */
+/* Estilos para la imagen productosgeneral */
+#productosgeneral {
+  margin: 50px auto 100px; /* Centrado horizontal y margen inferior */
   display: block; /* Para centrar */
+  position: relative; /* Añade posición relativa */
+  z-index: 1; /* Coloca la imagen encima del mapa */
+}
+
+/* Estilos para el mapa */
+#mapa {
+  margin-top: 50px; /* Ajusta este valor según sea necesario */
+  position: relative; /* Añade posición relativa */
+  z-index: 0; /* Coloca el mapa detrás de la imagen */
 }
 
 
