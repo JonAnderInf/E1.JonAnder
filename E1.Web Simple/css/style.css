@@ -109,6 +109,17 @@ nav a {
   margin-top: 30px;
 }
 
+.titulo-onepiece {
+  color: red; /* Color rojo */
+  font-family: "Arial Black", sans-serif; /* Fuente Arial Black */
+  font-size: 28px; /* Tamaño de fuente 28px */
+  text-transform: uppercase; /* Mayúsculas */
+  margin-bottom: 20px; /* Margen inferior 20px */
+  text-align: center;
+}
+
+
+
 /* Estilos generales del footer */
 
 footer {
@@ -116,6 +127,7 @@ footer {
   color: #fff;
   padding: 20px 0;
  width: 100%;
+  
 }
 
 .contenedor-footer {
